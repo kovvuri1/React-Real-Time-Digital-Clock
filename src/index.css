@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/19/23/47/clouds-4215608_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    animation-name: cloud;
+    animation-duration: 40s;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+}
+@keyframes cloud{
+    from{background-image: url("https://cdn.pixabay.com/photo/2019/05/19/23/47/clouds-4215608_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;}
+    to{ background-image: url("https://img.freepik.com/premium-photo/spring-nature-background-with-grass-blue-sky-back-1_1197797-195756.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid");
+        background-size: cover;
+        background-repeat: no-repeat;} 
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .clock-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-size: 3rem;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    margin: 300px;
+   
+  }
+  .clock-button:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+  }

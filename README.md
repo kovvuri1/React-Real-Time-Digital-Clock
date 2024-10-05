@@ -1,0 +1,1 @@
+This application is a dynamic digital clock built using React, showcasing real-time updates every second.
